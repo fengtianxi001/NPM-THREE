@@ -1,9 +1,9 @@
 name: Node.js Package
 
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -28,4 +28,4 @@ publish-npm:
     - run: yarn build
     - run: yarn publish
       env:
-        NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
