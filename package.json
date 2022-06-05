@@ -1,23 +1,27 @@
 {
-	"name": "npm-three",
-	"version": "0.0.1",
-	"description": "three base",
-	"main": "./dist/index.js",
-	"scripts": {
-		"build": "tsc",
-		"example": "tsc && node ./example/index.js"
-	},
-	"author": "fengtianxi001",
-	"license": "ISC",
-	"homepage": "https://github.com/fengtianxi001",
-	"dependencies": {
-		"@tweenjs/tween.js": "^18.6.4",
-		"@types/three": "^0.141.0",
-		"three": "^0.141.0",
-		"tsc": "^2.0.4",
-		"typescript": "^4.7.3"
-	},
-	"devDependencies": {
-		"@types/node": "^17.0.8"
-	}
+  "name": "npm-three",
+  "version": "0.0.1",
+  "description": "three base",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "example": "tsc && node ./example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengtianxi001/NPM-THREE.git"
+  },
+  "author": "fengtianxi001",
+  "license": "ISC",
+  "homepage": "https://github.com/fengtianxi001/NPM-THREE",
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "@types/three": "^0.141.0",
+    "three": "^0.141.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  }
 }
