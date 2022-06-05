@@ -1,2 +1,2 @@
 # NPM-THREE
- 对THREE简单的封装
+> 对THREE简单的封装.
