@@ -1,6 +1,6 @@
 {
   "name": "three-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "three base",
   "main": "./dist/index.js",
   "scripts": {
