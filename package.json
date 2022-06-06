@@ -1,5 +1,5 @@
 {
-  "name": "npm-three",
+  "name": "three-base",
   "version": "0.0.1",
   "description": "three base",
   "main": "./dist/index.js",
